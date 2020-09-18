@@ -1,7 +1,7 @@
 # VecDB
 > A very simple library to store, retrieve, compare, update and delete embedding vectors.
 
-It is very common in machine learning applications the need to store a large quantity of embedding vectors and compare them using functions such as cosine similary and euclidean distance. This tools helps you do that by using the H5DF format.
+It is very common in machine learning applications the need to store a large quantity of embedding vectors and compare them using functions such as cosine similary and euclidean distance. This tools helps you to do that in a fast and efficient by using H5DF files.
 
 ---
 ## Usage
