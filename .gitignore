@@ -1,1 +1,4 @@
 __pycache__/
+vecdb/__pycache__/
+dist/
+build/
