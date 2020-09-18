@@ -7,6 +7,7 @@ It is very common in machine learning applications the need to store a large qua
 ## Usage
 Inside the H5DF file, the data can be segregated into dataset. This way, you can add categories to your embeddings, such as multiple albums for a face recognition system, for example. If you don't need this, don't specify anything and a custom dataset will be used.
 
+### Initialize
 The file containing the data can be created using the class constructor. If the file already exists, it will just load it.
 
 ```python
@@ -16,6 +17,7 @@ from vecdb import VecDB
 db = VecDB(emb_dim=512, filepath='data.h5')
 ```
 
+### Store new data
 To add new entries to our database, we can use the method `store`. This method returns the index of the last inserted entry. This is useful to reference the embedding vector in a separate database, such as SQL or NoSQL.
 
 ```python
@@ -29,6 +31,7 @@ last_index = db.store(embeddings)
 last_index = db.store(embeddings, 'my_dataset')
 ```
 
+### Update entries
 To update a specific embedding vector, just use the method `update`.
 
 ```python
@@ -42,6 +45,7 @@ db.update(100, new_embedding)
 db.update(100, new_embedding, 'my_dataset')
 ```
 
+### Delete entries
 Entries can be deleted with the method `delete`. You just have to specify the index of the entry to be deleted.
 
 ```python
@@ -52,6 +56,7 @@ db.delete(200)
 db.delete(200, 'my_dataset')
 ```
 
+### Compare
 In order to compare a new embedding vector with all entries in a dataset, you can use the `compare` method. This method needs a `func` argument in which is specified the function the be used to compare the entries.
 
 ```python
