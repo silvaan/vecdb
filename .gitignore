@@ -2,3 +2,4 @@ __pycache__/
 vecdb/__pycache__/
 dist/
 build/
+vecdb.egg-info/
