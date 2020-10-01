@@ -1,7 +1,14 @@
-# VecDB
-> A very simple library to store, retrieve, compare, update and delete embedding vectors.
+<p align="center">
+  <img src="VecDB.svg">
+</p>
 
-It is very common in machine learning applications the need to store a large quantity of embedding vectors and compare them using functions such as cosine similary and euclidean distance. This tools helps you to do that in a fast and efficient way by using H5DF files.
+**VecDB** is a tool to help you to store, manage and compare embeddings vectors for machine learning applications.
+
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/vecdb.svg)](https://pypi.python.org/pypi/vecdb/) [![PyPI license](https://img.shields.io/pypi/l/vecdb.svg)](https://pypi.python.org/pypi/vecdb/)
+
+## Embeddings
+
+It is very common in machine learning applications the need to store a large quantity of embedding vectors and compare them using functions such as cosine similary or euclidean distance. **VecDB** helps you to do that in a fast and efficient way by using H5DF files.
 
 ---
 ## Installation
