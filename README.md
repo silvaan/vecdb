@@ -99,3 +99,7 @@ similar = db.most(
   dataset='my_dataset'
 )
 ```
+
+## License
+
+MIT © [jrmiranda](https://github.com/jrmiranda)

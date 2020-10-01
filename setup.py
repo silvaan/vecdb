@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="vecdb",
-  version="1.0.1",
+  version="1.0.2",
   author="Silvan Junior",
   author_email="jrmirannda@gmail.com",
   description="A very simple library to store, retrieve, compare, update and delete embedding vectors.",
