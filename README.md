@@ -10,13 +10,6 @@
 
 It is very common in machine learning applications the need to store a large quantity of embedding vectors and compare them using functions such as cosine similary or euclidean distance. **VecDB** helps you to do that in a fast and efficient way by using H5DF files.
 
----
-## Installation
-The latest released version is avaibale at Python package index.
-```
-pip install vecdb
-```
-
 ## Dependencies
 - [NumPy](https://www.numpy.org/)
 - [h5py](https://www.h5py.org/)
